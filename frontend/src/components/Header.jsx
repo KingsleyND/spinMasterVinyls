@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar,Nav, Container} from "react-bootstrap";
 import {FaShoppingCart, FaUser} from "react-icons/fa";
+import smLogo from '../assets/smLogo.png';
 
 
 export const Header = () => {
@@ -8,7 +9,9 @@ export const Header = () => {
     <header>
         <Navbar bg='dark' variant='dark' expand="lg" collapseOnSelect>
             <Container>
-                <Navbar.Brand href='/'>SpinMasters</Navbar.Brand>
+                <Navbar.Brand href='/'>
+                    <img src={smLogo} alt="spinmastersLogo" width="50px" height="50px"/>
+                    SpinMasters</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav'/>
                 <Navbar.Collapse id='basic-navbar-nav'>
                     <Nav className='ms-auto'>
