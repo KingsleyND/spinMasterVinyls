@@ -15,7 +15,7 @@ const App = () => {
         <Container>
           {/* <h1>Spinmasters welcomes you</h1> */}
 
-        </Container>
+        </Container>l
         
       </main>
       <Footer />
