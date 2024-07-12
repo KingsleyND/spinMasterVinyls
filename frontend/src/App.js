@@ -13,9 +13,9 @@ const App = () => {
       <Header />
       <main className="py-3">
         <Container>
-          {/* <h1>Spinmasters welcomes you</h1> */}
+          {/* <h1>Spinmasters welcomes you</h1> */}o
 
-        </Container>l
+        </Container>
         
       </main>
       <Footer />
