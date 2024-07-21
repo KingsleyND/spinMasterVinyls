@@ -21,7 +21,8 @@ const Rating = ({value, text}) => {
       </span>
 
       <span className="rating-text">
-        {text && text} //if there is a text, show text
+        {text && text} 
+        {/* if there is a text, show text */}
       </span>
 
     </div>
