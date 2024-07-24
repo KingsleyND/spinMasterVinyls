@@ -5,7 +5,7 @@ import products from '../products'
 const ProductScreen = () => {
     const { id } = useParams()
   return (
-    <div>ProductScreen</div>
+    <div>sProductScreen</div>
   )
 }
 
