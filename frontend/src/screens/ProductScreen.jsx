@@ -5,7 +5,7 @@ import products from '../products'
 const ProductScreen = () => {
     const { id: productId } = useParams() //returns an object with key id (id is renamed to productId)
   return (
-    <div>sProductScreenn</div>
+    <div>sProductScreen</div>
   )
 }
 
