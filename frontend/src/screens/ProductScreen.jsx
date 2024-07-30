@@ -7,7 +7,7 @@ const ProductScreen = () => {
     const product = products.find(product => product._id === productId) //find the product with the same id as the productId
     // console.log(product)
   return (
-    <div>ProductScreen</div>
+    <div>ProductSfcreen</div>
   )
 }
 
