@@ -1,0 +1,19 @@
+{
+  "name": "spinmastervinyls",
+  "version": "1.0.0",
+  "description": "eCommerce application built with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingsleyND/spinMasterVinyls.git"
+  },
+  "author": "Kingsley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KingsleyND/spinMasterVinyls/issues"
+  },
+  "homepage": "https://github.com/KingsleyND/spinMasterVinyls#readme"
+}
