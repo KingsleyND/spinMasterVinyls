@@ -26,6 +26,9 @@ const ProductScreen = () => {
         <ListGroupItem>
           Price: ${product.price}
         </ListGroupItem>
+        <ListGroupItem>
+           {product.description}
+          </ListGroupItem>
       </ListGroup>
     </Col>
     <Col md={3}>
@@ -39,6 +42,7 @@ const ProductScreen = () => {
                 </Col>
               </Row>
             </ListGroupItem>
+
             <ListGroupItem>
               <Row>
                 <Col>Status:</Col>

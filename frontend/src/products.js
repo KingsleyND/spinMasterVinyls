@@ -2,7 +2,7 @@ const products = [
   {
     _id: '1',
     name: 'The Slow Rush',
-    image: '/images/airpods.jpg',
+    image: '/images/slowrush.jpg',
     description:
       'On his fourth album, Kevin Parker takes a breath and eases into a smoother psychedelic sound. Even without the adrenaline-filled highs, the compositions are as rich and thoughtful as ever.',
     brand: 'Tame Impala',
