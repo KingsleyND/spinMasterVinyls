@@ -2,9 +2,10 @@
   "name": "spinmastervinyls",
   "version": "1.0.0",
   "description": "eCommerce application built with MERN stack",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KingsleyND/spinMasterVinyls/issues"
   },
-  "homepage": "https://github.com/KingsleyND/spinMasterVinyls#readme"
+  "homepage": "https://github.com/KingsleyND/spinMasterVinyls#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
