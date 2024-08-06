@@ -12,6 +12,11 @@ app.get('/api/products', (req, res) => {  // Define a route for the products dat
     res.json(products);  // Send the products data to the client
 });
 
+app.get('/api/products/:id', (req, res) => {  // Define a route for the product details (single product route)
+    const product = products.find((p) => p._id === req.params.id);  // Find the product by id
+    res.json(product);  // Send the product details to the client
+});
+
 app.listen(port, () => console.log(`Server is running on port ${port}`));  
 
 // The server is now running on port 5000
