@@ -1,5 +1,8 @@
 import express from 'express';  // Import express using ES6 syntax
+import dotenv from 'dotenv';  // Import dotenv
+dotenv.config();  // Configure dotenv
 import products from './data/products.js';  // Import the products data
+
 const port = 5000;  // Define the port number (frontend uses 3000)
 
 const app = express();  
