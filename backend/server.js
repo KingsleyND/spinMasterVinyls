@@ -22,4 +22,4 @@ app.get('/api/products/:id', (req, res) => {  // Define a route for the product 
 
 app.listen(port, () => console.log(`Server is running on port ${port}`));  
 
-// The server is now running on port 5000
+// The server is now running on portt 5000
