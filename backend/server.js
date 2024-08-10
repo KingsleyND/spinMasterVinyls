@@ -3,7 +3,7 @@ import dotenv from 'dotenv';  // Import dotenv
 dotenv.config();  // Configure dotenv
 import products from './data/products.js';  // Import the products data
 
-const port = 5000;  // Define the port number (frontend uses 3000)
+const port = process.env.PORT || 5000;//the port number is stored in the .env file and process.env.PORT is the prefix used to access it(5000 is the default port number and fallback value)
 
 const app = express();  
 
@@ -22,4 +22,4 @@ app.get('/api/products/:id', (req, res) => {  // Define a route for the product 
 
 app.listen(port, () => console.log(`Server is running on port ${port}`));  
 
-// The server is now running on portt 5000
+// The server is now running on port 5000
