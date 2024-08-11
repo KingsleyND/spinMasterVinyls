@@ -3,12 +3,12 @@ import dotenv from 'dotenv';  // Import dotenv
 dotenv.config();  // Configure dotenv
 import products from './data/products.js';  // Import the products data
 
-const port = process.env.PORT || 5000;//the port number is stored in the .env file and process.env.PORT is the prefix used to access it(5000 is the default port number and fallback value)
+const port = process.env.PORT || 5000;//the port number is stored in the .env file and process.env.PORT is the prefix used to access it(5000 is the default port number and fallback)
 
 const app = express();  
 
 app.get('/', (req, res) => {  // Define a route for the root URL
-    res.send('Server is running..');  // Send a response to the client
+    res.send('Server is running..');  // Send a response to the client,
 });
 
 app.get('/api/products', (req, res) => {  // Define a route for the products data
