@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;//the port number is stored in the .env fi
 
 const app = express();  
 
-app.get('/', (req, res) => {  // Define a route for the root URL
+app.get('/', (req, res) => {  // Define a route for the r
     res.send('Server is running..');  // Send a response to the client,
 });
 
