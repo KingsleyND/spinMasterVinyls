@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/KingsleyND/spinMasterVinyls#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongoose": "^8.9.2"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",

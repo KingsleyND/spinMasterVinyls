@@ -1,9 +1,12 @@
 import express from 'express';  // Import express using ES6 syntax
 import dotenv from 'dotenv';  // Import dotenv
 dotenv.config();  // Configure dotenv
+import connectDB from './config/db.js';
 import products from './data/products.js';  // Import the products data
 
 const port = process.env.PORT || 5000;//the port number is stored in the .env file and process.env.PORT is the prefix used to access it(5000 is the default port number and fallback)
+
+connectDB();  // Connect to the database
 
 const app = express();  
 
