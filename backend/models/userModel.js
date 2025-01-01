@@ -16,5 +16,15 @@ const userSchema = mongoose.Schema({
         required: true,
     },
     isAdmin: {
-        type: B
-    }
+        type: Boolean,
+        required: true,
+        default: fault,
+    },
+
+}, {
+    timestamps: true,
+});
+
+const User = mongoose.model('User', userSchema);
+
+export default User;  // Export the User model
